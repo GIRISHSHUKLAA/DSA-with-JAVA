@@ -1,4 +1,4 @@
-/*Linear search code
+/*Linear search code -->
 Time complexity Worst case:O(N)
 Time complexity Best case:O(1)
 Space complexity: O(1)
