@@ -1,7 +1,8 @@
 /*
  * the code is valid for only if array is sorted in ascending order
  * and to apply code u must know wheather arry is sorted in ascending order or descending order
- * in that case we use Order-Agnostic binary search
+ * 
+ * if we do not know whear=ther array is sorted in ascending or descending order than we use Order-Agnostic Binary Search
  */
 
 
