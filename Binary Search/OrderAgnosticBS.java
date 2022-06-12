@@ -1,6 +1,10 @@
 /*
  *  this code is valid for all cases even if we do not know wheather
  *  the array is sorted in ascending or descending order
+ *
+ *  time complexity of order agnostic binary. search is same as simple binary search i.e -->
+ *  Time Complexity Best Case:- O(1)
+ *  Time Complexity Worst Case:- O(log N)
  */
 
 
