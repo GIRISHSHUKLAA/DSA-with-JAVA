@@ -31,7 +31,6 @@ public class InfiniteArray {
             } else if (target < arr[mid]) {
                 end = mid - 1;
             } else
-                // ans found
                 return mid;
         }
 
