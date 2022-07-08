@@ -1,3 +1,10 @@
+/*
+* Time Complexity--->
+*                 Best Case -- O(N)
+*                 Worst Case-- O(N*N) i.e n sqauare
+* Space Complexity---> O(1)
+*/
+
 import java.util.Arrays;
 
 public class BubbleSort {
