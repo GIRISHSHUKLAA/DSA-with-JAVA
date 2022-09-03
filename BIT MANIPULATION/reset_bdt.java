@@ -1,4 +1,4 @@
-// RESET MEANS:-
+// RESET MEANS:
 //             if it is 1 make it 0
 //             if it is 0 remain it zero
 
