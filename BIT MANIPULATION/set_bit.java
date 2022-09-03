@@ -1,3 +1,6 @@
+// SET MEANS:-
+//             if it is 0 make it 1
+//             if it is 1 remain it 1
 //        A simple approach to this problem is to first create a mask such that kth bit is set in it.
 //        We can achieve this by shifting 1 k times to left or by doing (1<<k).
 //        Eg: We have to set 3 bit of 1000001. 1<< 3 will give us 1000.
