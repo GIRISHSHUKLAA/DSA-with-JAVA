@@ -12,8 +12,8 @@ import java.util.Scanner;
 class GH {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();    //number for which you have to set the kth bit
-        int k = sc.nextInt();    //position on which u want to set the bit
+        int n = sc.nextInt();   //number for which you have to set the kth bit
+        int k = sc.nextInt();   //position on which u want to set the bit
         int ans = (1 << k) | n;
         System.out.println(ans);
 //      If you want ans in binary form use Integer.toBinaryString(ans) function;
