@@ -4,7 +4,8 @@ public class prime {
         for (int i = 2; i <= n1; i++) {
             System.out.println(i + " " + isPrime(i));
         }
-//        optimized way:-Sieve of Eratosthenes
+//       optimized way:-Sieve of Eratosthenes
+//       time complexity:- O(N*log(log N))
         int n = 40;
         boolean[] primes = new boolean[n + 1];
         sieve(n, primes);
