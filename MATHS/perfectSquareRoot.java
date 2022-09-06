@@ -1,6 +1,6 @@
 public class perfectSquareRoot {
     public static void main(String[] args) {
-        int n = 40;
+        int n = 100;
         int s = 0;
         int e = n;
         int ans = 0;
