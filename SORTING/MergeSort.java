@@ -1,3 +1,9 @@
+/*
+TIME COMPLEXITY:- O(N*logN)
+Auxiliary Space:- O(logN)
+ */
+
+
 import java.util.Arrays;
 
 public class MergeSort {
