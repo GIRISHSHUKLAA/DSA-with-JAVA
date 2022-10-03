@@ -13,7 +13,7 @@ public class Maze3 {
             return list;
         }
         ArrayList<String> list = new ArrayList<>();
-        if (r > 1) {
+        if (r > 1 && c > 1) {
             list.addAll(pathRetDiag(ans + "D", r - 1, c-1));
         }
 
