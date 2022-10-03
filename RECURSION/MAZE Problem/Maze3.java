@@ -24,6 +24,5 @@ public class Maze3 {
             list.addAll(pathRetDiag(ans + "H", r, c - 1));
         }
         return list;
-
     }
 }
