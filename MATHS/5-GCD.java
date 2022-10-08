@@ -49,6 +49,7 @@ public class GCD {
     }
     static int gcd3(int a, int b) {
 //      Optimized version of  Euclidean Algorithm
+//      Time complexity:- O(log(min(a,b))
         if (a == 0)
             return b;
         return gcd3(b % a, a); //if u keep going like this one time 'a' will become zero
