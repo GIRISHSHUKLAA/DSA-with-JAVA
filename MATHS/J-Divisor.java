@@ -53,7 +53,7 @@ public class Divisor {
             }
         }
         for (; i >= 1; i--) {
-//            This for loop will print all divisor from root n (inclusive) to  n (exclusive)
+//           This for loop will print all divisor from root n (inclusive) to  n (exclusive)
 
             if (n % i == 0) {
                 System.out.print(n / i + " ");
