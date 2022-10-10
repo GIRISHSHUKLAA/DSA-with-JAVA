@@ -11,13 +11,14 @@ public class prime {
         sieve(n, primes);
     }
 
-    //    initially all the elements in an array are false
+//    initially all the elements in an array are false
 //    False in array means number is prime
     private static void sieve(int n, boolean[] primes) {
         for (int i = 2; i * i <= n; i++) {
             if (!primes[i]) {
-//                if a number is prime means its multiple is not prime so make it true
+//              if a number is prime means its multiple is not prime so make it true
                 for (int j = 2 * i; j <= n; j+=i) {
+//                     you can further optimized this by replacing j-2*i with i*i
                     primes[j] = true;
                 }
             }
