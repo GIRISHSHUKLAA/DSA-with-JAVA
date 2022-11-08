@@ -26,7 +26,7 @@ public class hashmap {
 
 
     static boolean isSubarray2(int[] arr, int n) {
-//        Naive Solution
+//        Optimized Solution
 //        Time Complexity:- O(n)
 //        Auxiliary Space:- O(n)
         HashSet<Integer> h = new HashSet<>();
