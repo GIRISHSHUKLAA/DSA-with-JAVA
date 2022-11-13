@@ -9,7 +9,7 @@ class Node {
 }
 
 
-public class InsertAtBeginSinglyLinkedList {
+public class InsertAtEndSinglyLinkedList {
     public static void main(String[] args) {
         Node head = null;
         head = insertAtEnd(head, 10);
