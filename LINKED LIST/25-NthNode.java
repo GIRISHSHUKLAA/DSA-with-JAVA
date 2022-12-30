@@ -37,6 +37,12 @@ public class NthNode {
 
     public static void NthNodefromEnd2(Node head, int x) {
 //        Efficient Approach
+        /*
+         * Using two pointer approach
+         * Move 'first' two position ahead
+         * Start 'second' pointer from head
+         * When your first pointer reaches null then your second pointer reaches the required node
+         */
         if (head == null) {
             return;
         }
