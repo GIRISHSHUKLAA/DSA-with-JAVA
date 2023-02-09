@@ -52,6 +52,6 @@ public class StackGetMin {
         s.pop();
 
         System.out.print(" Minimum Element from Stack: " + s.getMin());
-
+        
     }
 }
