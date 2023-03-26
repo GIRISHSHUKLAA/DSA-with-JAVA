@@ -18,11 +18,13 @@ public class Merge {
         a.next.next = new Node(30);
         Node b = new Node(5);
         b.next = new Node(35);
-        printlist(sortedMerge(a, b));
+//        printlist(sortedMerge(a, b));
+        printlist(recSortedMerge(a, b));
 
     }
 
     static Node sortedMerge(Node a, Node b) {
+//        Iterative Method
         if (a == null) return b;
         if (b == null) return a;
         Node head = null, tail = null;
@@ -51,6 +53,20 @@ public class Merge {
         }
         return head;
     }
+
+    static Node recSortedMerge(Node a, Node b) {
+//        Recursive Approach
+        if (a == null) return b;
+        if (b == null) return a;
+        if (a.data < b.data) {
+            a.next = recSortedMerge(a.next, b);
+            return a;
+        } else {
+            b.next = recSortedMerge(a, b.next);
+            return b;
+        }
+    }
+
 
     public static void printlist(Node head) {
         Node curr = head;
