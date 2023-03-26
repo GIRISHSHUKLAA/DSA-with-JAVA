@@ -16,12 +16,14 @@ public class RemoveDuplicate {
         head.next.next.next = new Node(40);
         head.next.next.next.next = new Node(40);
         printlist(head);
-        duplicate(head);
+//        duplicate(head);
+        recDuplicate(head);
         printlist(head);
 
     }
 
     public static void duplicate(Node head) {
+//        Iterative Method
         Node curr = head;
         while (curr != null && curr.next != null) {
             if (curr.data == curr.next.data)
@@ -29,6 +31,13 @@ public class RemoveDuplicate {
             else
                 curr = curr.next;
         }
+    }
+
+    public static Node recDuplicate(Node head) {
+//        Recursive Approach
+        if (head == null || head.next == null) return head;
+        head.next = recDuplicate(head.next);
+        return head.data == head.next.data ? head.next : head;
     }
 
     public static void printlist(Node head) {
