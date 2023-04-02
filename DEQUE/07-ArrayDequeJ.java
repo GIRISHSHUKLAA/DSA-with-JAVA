@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 
 public class ArrayDequeJ {
     public static void main(String[] args) {
-        ArrayDeque<Integer> ad = new ArrayDeque<>(); // This creates an empty stack
+        ArrayDeque<Integer> ad = new ArrayDeque<>(); 
         ad.offer(10);
         ad.offer(20);
         System.out.println(ad.peek());
