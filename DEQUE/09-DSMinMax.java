@@ -48,6 +48,5 @@ public class DSMinMax {
         System.out.println(x);
 
         ds.insertMin(8);
-
     }
 }
