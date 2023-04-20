@@ -22,6 +22,8 @@ public class Inorder {
     }
 
     public static void inorder(Node root) {
+//        Time Complexity:-O(n)
+//        Auxiliary Space:-O(h)  height of tree + 1
         if (root != null) {
             inorder(root.left);
             System.out.print(root.key + " ");
