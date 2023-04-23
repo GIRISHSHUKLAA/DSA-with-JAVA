@@ -23,8 +23,8 @@ public class LeftView {
 
 
     public static void leftView(Node root) {
-//        Time Complexity:- O(n)
-//        Space Complexity:- O(w) or O(n) in worst case
+//       Time Complexity:- O(n)
+//       Space Complexity:- O(w) or O(n) in worst case
         if (root == null) return;
 
         Queue<Node> q = new LinkedList<>();
@@ -43,3 +43,4 @@ public class LeftView {
         }
     }
 }
+
