@@ -20,7 +20,9 @@ public class BalancedBT {
     }
 
     public static boolean isBalanced(Node root) {
+        
 //        Naive Solution:- O(n^2)
+        
         if (root == null)
             return true;
         int lh = height(root.left);
