@@ -45,6 +45,7 @@ public class MaxmWidth {
                     q.add(curr.right);
             }
         }
+        
         return max;
     }
 }
