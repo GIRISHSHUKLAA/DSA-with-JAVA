@@ -29,7 +29,7 @@ public class SpiralTreeTraversal {
     }
 
     public static void printSpiral(Node root) {
-//       Time Complexity:- O(N)
+//       Time Complexity:- O(n)
         if (root == null) return;
 
         Stack<Node> s1 = new Stack<>();
