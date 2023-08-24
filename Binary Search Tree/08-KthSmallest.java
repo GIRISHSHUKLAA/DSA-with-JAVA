@@ -26,13 +26,13 @@ public class KthSmallest {
 
 
     private static int printKth(Node root, int k, int c) {
-      // Time Complexity:-O(n)
+      // Time Complexity:-O(h+k)
         if (root == null) return 0;
         c = printKth(root.left, k, c);
         c++;
         if (c == k) {
             System.out.print(root.key);
-            return root.key;
+            return root.key; 
         }
         c = printKth(root.right,k,c);
 
