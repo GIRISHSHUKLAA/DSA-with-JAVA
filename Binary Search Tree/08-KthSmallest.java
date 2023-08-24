@@ -25,7 +25,6 @@ public class KthSmallest {
     }
 
 
-
     private static int printKth(Node root, int k, int c) {
       // Time Complexity:-O(n)
         if (root == null) return 0;
